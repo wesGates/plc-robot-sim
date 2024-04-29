@@ -1,21 +1,87 @@
 ** urn:nono:Studio:OpcUaServer: start trace
 ** Product version: Studio Studio Opc Ua Server 1.0.1
-** Date: 2024-04-23
+** Date: 2024-04-28
 **
-21:00:50.551Z|4|2A20* ==> UaCoreServerApplication::start
-21:00:50.551Z|6|2A20* --> ServerConfigXml::loadConfiguration
-21:00:50.552Z|2|2A20* Warning: ServerConfigXml - AllowDeprecatedSecurityPolicies is set to true. You may run the server with settings that are no longer considered secure.
-21:00:50.552Z|2|2A20* Warning: ServerConfigXml - setting UserIdentityTokens/SecurityPolicy to http://opcfoundation.org/UA/SecurityPolicy#Basic256. This SecurityPolicy is no longer considered secure.
-21:00:50.552Z|2|2A20* Warning: UaEndpointXml::setXmlConfig - SecurityPolicyUri: http://opcfoundation.org/UA/SecurityPolicy#None is enabled. This allows clients to connect without certificate check.
-21:00:50.552Z|6|2A20* <-- ServerConfigXml::loadConfiguration [ret=0x0]
-21:00:50.552Z|3|2A20* UaDir::mkpath: Path already exists!
-21:00:52.638Z|1|44B4* [uastack] OpcUa_SecureConnection_OnNotify: Connect event: ERROR 0x80050000!
-21:00:52.638Z|1|44B4* [uastack] OpcUa_SecureConnection_OnNotify: Connect event: Notifying owner! 0x80050000
-21:01:27.007Z|1|154C* [uastack] OpcUa_SecureConnection_OnNotify: Connect event: ERROR 0x80050000!
-21:01:27.007Z|1|154C* [uastack] OpcUa_SecureConnection_OnNotify: Connect event: Notifying owner! 0x80050000
-21:02:01.860Z|1|1D28* [uastack] OpcUa_SecureConnection_OnNotify: Connect event: ERROR 0x80050000!
-21:02:01.860Z|1|1D28* [uastack] OpcUa_SecureConnection_OnNotify: Connect event: Notifying owner! 0x80050000
-21:02:36.638Z|1|4338* [uastack] OpcUa_SecureConnection_OnNotify: Connect event: ERROR 0x80050000!
-21:02:36.638Z|1|4338* [uastack] OpcUa_SecureConnection_OnNotify: Connect event: Notifying owner! 0x80050000
-21:03:06.898Z|1|42B0* [uastack] OpcUa_SecureConnection_OnNotify: Connect event: ERROR 0x80050000!
-21:03:06.898Z|1|42B0* [uastack] OpcUa_SecureConnection_OnNotify: Connect event: Notifying owner! 0x80050000
+19:12:30.947Z|4|C5D0* ==> UaCoreServerApplication::start
+19:12:30.947Z|6|C5D0* --> ServerConfigXml::loadConfiguration
+19:12:30.947Z|2|C5D0* Warning: ServerConfigXml - AllowDeprecatedSecurityPolicies is set to true. You may run the server with settings that are no longer considered secure.
+19:12:30.947Z|2|C5D0* Warning: ServerConfigXml - setting UserIdentityTokens/SecurityPolicy to http://opcfoundation.org/UA/SecurityPolicy#Basic256. This SecurityPolicy is no longer considered secure.
+19:12:30.947Z|2|C5D0* Warning: UaEndpointXml::setXmlConfig - SecurityPolicyUri: http://opcfoundation.org/UA/SecurityPolicy#None is enabled. This allows clients to connect without certificate check.
+19:12:30.948Z|6|C5D0* <-- ServerConfigXml::loadConfiguration [ret=0x0]
+19:12:30.948Z|3|C5D0* UaDir::mkpath: Path already exists!
+19:12:33.015Z|1|B99C* [uastack] OpcUa_SecureConnection_OnNotify: Connect event: ERROR 0x80050000!
+19:12:33.015Z|1|B99C* [uastack] OpcUa_SecureConnection_OnNotify: Connect event: Notifying owner! 0x80050000
+19:13:06.243Z|1|A550* [uastack] OpcUa_SecureConnection_OnNotify: Connect event: ERROR 0x80050000!
+19:13:06.243Z|1|A550* [uastack] OpcUa_SecureConnection_OnNotify: Connect event: Notifying owner! 0x80050000
+19:13:40.451Z|1|6360* [uastack] OpcUa_SecureConnection_OnNotify: Connect event: ERROR 0x80050000!
+19:13:40.451Z|1|6360* [uastack] OpcUa_SecureConnection_OnNotify: Connect event: Notifying owner! 0x80050000
+19:14:15.079Z|1|B0C4* [uastack] OpcUa_SecureConnection_OnNotify: Connect event: ERROR 0x80050000!
+19:14:15.079Z|1|B0C4* [uastack] OpcUa_SecureConnection_OnNotify: Connect event: Notifying owner! 0x80050000
+19:14:49.704Z|1|6058* [uastack] OpcUa_SecureConnection_OnNotify: Connect event: ERROR 0x80050000!
+19:14:49.704Z|1|6058* [uastack] OpcUa_SecureConnection_OnNotify: Connect event: Notifying owner! 0x80050000
+19:15:24.290Z|1|C12C* [uastack] OpcUa_SecureConnection_OnNotify: Connect event: ERROR 0x80050000!
+19:15:24.290Z|1|C12C* [uastack] OpcUa_SecureConnection_OnNotify: Connect event: Notifying owner! 0x80050000
+19:15:58.898Z|1|85F4* [uastack] OpcUa_SecureConnection_OnNotify: Connect event: ERROR 0x80050000!
+19:15:58.898Z|1|85F4* [uastack] OpcUa_SecureConnection_OnNotify: Connect event: Notifying owner! 0x80050000
+19:16:33.493Z|1|6488* [uastack] OpcUa_SecureConnection_OnNotify: Connect event: ERROR 0x80050000!
+19:16:33.493Z|1|6488* [uastack] OpcUa_SecureConnection_OnNotify: Connect event: Notifying owner! 0x80050000
+19:17:08.100Z|1|35B0* [uastack] OpcUa_SecureConnection_OnNotify: Connect event: ERROR 0x80050000!
+19:17:08.100Z|1|35B0* [uastack] OpcUa_SecureConnection_OnNotify: Connect event: Notifying owner! 0x80050000
+19:17:42.695Z|1|8A0C* [uastack] OpcUa_SecureConnection_OnNotify: Connect event: ERROR 0x80050000!
+19:17:42.695Z|1|8A0C* [uastack] OpcUa_SecureConnection_OnNotify: Connect event: Notifying owner! 0x80050000
+19:18:17.326Z|1|7848* [uastack] OpcUa_SecureConnection_OnNotify: Connect event: ERROR 0x80050000!
+19:18:17.326Z|1|7848* [uastack] OpcUa_SecureConnection_OnNotify: Connect event: Notifying owner! 0x80050000
+19:18:51.931Z|1|0A3C* [uastack] OpcUa_SecureConnection_OnNotify: Connect event: ERROR 0x80050000!
+19:18:51.931Z|1|0A3C* [uastack] OpcUa_SecureConnection_OnNotify: Connect event: Notifying owner! 0x80050000
+19:19:26.539Z|1|54B0* [uastack] OpcUa_SecureConnection_OnNotify: Connect event: ERROR 0x80050000!
+19:19:26.539Z|1|54B0* [uastack] OpcUa_SecureConnection_OnNotify: Connect event: Notifying owner! 0x80050000
+19:20:01.134Z|1|BF64* [uastack] OpcUa_SecureConnection_OnNotify: Connect event: ERROR 0x80050000!
+19:20:01.134Z|1|BF64* [uastack] OpcUa_SecureConnection_OnNotify: Connect event: Notifying owner! 0x80050000
+19:20:35.747Z|1|6448* [uastack] OpcUa_SecureConnection_OnNotify: Connect event: ERROR 0x80050000!
+19:20:35.748Z|1|6448* [uastack] OpcUa_SecureConnection_OnNotify: Connect event: Notifying owner! 0x80050000
+19:21:10.352Z|1|872C* [uastack] OpcUa_SecureConnection_OnNotify: Connect event: ERROR 0x80050000!
+19:21:10.352Z|1|872C* [uastack] OpcUa_SecureConnection_OnNotify: Connect event: Notifying owner! 0x80050000
+19:21:44.957Z|1|2298* [uastack] OpcUa_SecureConnection_OnNotify: Connect event: ERROR 0x80050000!
+19:21:44.957Z|1|2298* [uastack] OpcUa_SecureConnection_OnNotify: Connect event: Notifying owner! 0x80050000
+19:22:19.559Z|1|A9E0* [uastack] OpcUa_SecureConnection_OnNotify: Connect event: ERROR 0x80050000!
+19:22:19.559Z|1|A9E0* [uastack] OpcUa_SecureConnection_OnNotify: Connect event: Notifying owner! 0x80050000
+19:22:54.167Z|1|3C0C* [uastack] OpcUa_SecureConnection_OnNotify: Connect event: ERROR 0x80050000!
+19:22:54.167Z|1|3C0C* [uastack] OpcUa_SecureConnection_OnNotify: Connect event: Notifying owner! 0x80050000
+19:23:28.673Z|1|ADB8* [uastack] OpcUa_SecureConnection_OnNotify: Connect event: ERROR 0x80050000!
+19:23:28.673Z|1|ADB8* [uastack] OpcUa_SecureConnection_OnNotify: Connect event: Notifying owner! 0x80050000
+19:24:03.286Z|1|08F0* [uastack] OpcUa_SecureConnection_OnNotify: Connect event: ERROR 0x80050000!
+19:24:03.286Z|1|08F0* [uastack] OpcUa_SecureConnection_OnNotify: Connect event: Notifying owner! 0x80050000
+19:24:37.847Z|1|8D9C* [uastack] OpcUa_SecureConnection_OnNotify: Connect event: ERROR 0x80050000!
+19:24:37.847Z|1|8D9C* [uastack] OpcUa_SecureConnection_OnNotify: Connect event: Notifying owner! 0x80050000
+19:25:12.172Z|1|C108* [uastack] OpcUa_SecureConnection_OnNotify: Connect event: ERROR 0x80050000!
+19:25:12.172Z|1|C108* [uastack] OpcUa_SecureConnection_OnNotify: Connect event: Notifying owner! 0x80050000
+19:25:45.814Z|1|3180* [uastack] OpcUa_SecureConnection_OnNotify: Connect event: ERROR 0x80050000!
+19:25:45.814Z|1|3180* [uastack] OpcUa_SecureConnection_OnNotify: Connect event: Notifying owner! 0x80050000
+19:26:20.423Z|1|0508* [uastack] OpcUa_SecureConnection_OnNotify: Connect event: ERROR 0x80050000!
+19:26:20.423Z|1|0508* [uastack] OpcUa_SecureConnection_OnNotify: Connect event: Notifying owner! 0x80050000
+19:26:55.032Z|1|54D0* [uastack] OpcUa_SecureConnection_OnNotify: Connect event: ERROR 0x80050000!
+19:26:55.032Z|1|54D0* [uastack] OpcUa_SecureConnection_OnNotify: Connect event: Notifying owner! 0x80050000
+19:27:29.611Z|1|6F90* [uastack] OpcUa_SecureConnection_OnNotify: Connect event: ERROR 0x80050000!
+19:27:29.611Z|1|6F90* [uastack] OpcUa_SecureConnection_OnNotify: Connect event: Notifying owner! 0x80050000
+19:28:04.193Z|1|6284* [uastack] OpcUa_SecureConnection_OnNotify: Connect event: ERROR 0x80050000!
+19:28:04.193Z|1|6284* [uastack] OpcUa_SecureConnection_OnNotify: Connect event: Notifying owner! 0x80050000
+19:28:38.774Z|1|A35C* [uastack] OpcUa_SecureConnection_OnNotify: Connect event: ERROR 0x80050000!
+19:28:38.774Z|1|A35C* [uastack] OpcUa_SecureConnection_OnNotify: Connect event: Notifying owner! 0x80050000
+19:29:13.373Z|1|C00C* [uastack] OpcUa_SecureConnection_OnNotify: Connect event: ERROR 0x80050000!
+19:29:13.374Z|1|C00C* [uastack] OpcUa_SecureConnection_OnNotify: Connect event: Notifying owner! 0x80050000
+19:29:47.976Z|1|9A0C* [uastack] OpcUa_SecureConnection_OnNotify: Connect event: ERROR 0x80050000!
+19:29:47.976Z|1|9A0C* [uastack] OpcUa_SecureConnection_OnNotify: Connect event: Notifying owner! 0x80050000
+19:30:22.574Z|1|3BC0* [uastack] OpcUa_SecureConnection_OnNotify: Connect event: ERROR 0x80050000!
+19:30:22.574Z|1|3BC0* [uastack] OpcUa_SecureConnection_OnNotify: Connect event: Notifying owner! 0x80050000
+19:30:57.173Z|1|9EF4* [uastack] OpcUa_SecureConnection_OnNotify: Connect event: ERROR 0x80050000!
+19:30:57.173Z|1|9EF4* [uastack] OpcUa_SecureConnection_OnNotify: Connect event: Notifying owner! 0x80050000
+19:31:30.526Z|1|30D8* [uastack] OpcUa_SecureConnection_OnNotify: Connect event: ERROR 0x80050000!
+19:31:30.526Z|1|30D8* [uastack] OpcUa_SecureConnection_OnNotify: Connect event: Notifying owner! 0x80050000
+19:32:05.140Z|1|8430* [uastack] OpcUa_SecureConnection_OnNotify: Connect event: ERROR 0x80050000!
+19:32:05.141Z|1|8430* [uastack] OpcUa_SecureConnection_OnNotify: Connect event: Notifying owner! 0x80050000
+19:32:39.762Z|1|3548* [uastack] OpcUa_SecureConnection_OnNotify: Connect event: ERROR 0x80050000!
+19:32:39.762Z|1|3548* [uastack] OpcUa_SecureConnection_OnNotify: Connect event: Notifying owner! 0x80050000
+19:33:14.364Z|1|13A8* [uastack] OpcUa_SecureConnection_OnNotify: Connect event: ERROR 0x80050000!
+19:33:14.364Z|1|13A8* [uastack] OpcUa_SecureConnection_OnNotify: Connect event: Notifying owner! 0x80050000
+19:33:24.254Z|1|62AC* [uastack] OpcUa_SecureConnection_OnNotify: Connect event: ERROR 0x80050000!
+19:33:24.254Z|1|62AC* [uastack] OpcUa_SecureConnection_OnNotify: Connect event: Notifying owner! 0x80050000

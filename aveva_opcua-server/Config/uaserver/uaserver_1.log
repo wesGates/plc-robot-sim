@@ -1,39 +1,15 @@
 ** urn:nono:Studio:OpcUaServer: start trace
 ** Product version: Studio Studio Opc Ua Server 1.0.1
-** Date: 2024-04-23
+** Date: 2024-04-28
 **
-21:45:13.238Z|4|43A0* ==> UaCoreServerApplication::start
-21:45:13.238Z|6|43A0* --> ServerConfigXml::loadConfiguration
-21:45:13.238Z|2|43A0* Warning: ServerConfigXml - AllowDeprecatedSecurityPolicies is set to true. You may run the server with settings that are no longer considered secure.
-21:45:13.239Z|2|43A0* Warning: ServerConfigXml - setting UserIdentityTokens/SecurityPolicy to http://opcfoundation.org/UA/SecurityPolicy#Basic256. This SecurityPolicy is no longer considered secure.
-21:45:13.239Z|2|43A0* Warning: UaEndpointXml::setXmlConfig - SecurityPolicyUri: http://opcfoundation.org/UA/SecurityPolicy#None is enabled. This allows clients to connect without certificate check.
-21:45:13.239Z|6|43A0* <-- ServerConfigXml::loadConfiguration [ret=0x0]
-21:45:13.239Z|3|43A0* UaDir::mkpath: Path already exists!
-21:45:15.326Z|1|392C* [uastack] OpcUa_SecureConnection_OnNotify: Connect event: ERROR 0x80050000!
-21:45:15.326Z|1|392C* [uastack] OpcUa_SecureConnection_OnNotify: Connect event: Notifying owner! 0x80050000
-21:45:48.869Z|1|1084* [uastack] OpcUa_SecureConnection_OnNotify: Connect event: ERROR 0x80050000!
-21:45:48.869Z|1|1084* [uastack] OpcUa_SecureConnection_OnNotify: Connect event: Notifying owner! 0x80050000
-21:46:23.642Z|1|0B40* [uastack] OpcUa_SecureConnection_OnNotify: Connect event: ERROR 0x80050000!
-21:46:23.642Z|1|0B40* [uastack] OpcUa_SecureConnection_OnNotify: Connect event: Notifying owner! 0x80050000
-21:46:58.400Z|1|490C* [uastack] OpcUa_SecureConnection_OnNotify: Connect event: ERROR 0x80050000!
-21:46:58.400Z|1|490C* [uastack] OpcUa_SecureConnection_OnNotify: Connect event: Notifying owner! 0x80050000
-21:47:33.099Z|1|0178* [uastack] OpcUa_SecureConnection_OnNotify: Connect event: ERROR 0x80050000!
-21:47:33.099Z|1|0178* [uastack] OpcUa_SecureConnection_OnNotify: Connect event: Notifying owner! 0x80050000
-21:48:07.809Z|1|3A60* [uastack] OpcUa_SecureConnection_OnNotify: Connect event: ERROR 0x80050000!
-21:48:07.809Z|1|3A60* [uastack] OpcUa_SecureConnection_OnNotify: Connect event: Notifying owner! 0x80050000
-21:48:42.562Z|1|3448* [uastack] OpcUa_SecureConnection_OnNotify: Connect event: ERROR 0x80050000!
-21:48:42.562Z|1|3448* [uastack] OpcUa_SecureConnection_OnNotify: Connect event: Notifying owner! 0x80050000
-21:49:25.097Z|1|3A4C* [uastack] OpcUa_SecureConnection_OnNotify: Connect event: ERROR 0x80050000!
-21:49:25.097Z|1|3A4C* [uastack] OpcUa_SecureConnection_OnNotify: Connect event: Notifying owner! 0x80050000
-21:50:07.374Z|1|3C78* [uastack] OpcUa_SecureConnection_OnNotify: Connect event: ERROR 0x80050000!
-21:50:07.374Z|1|3C78* [uastack] OpcUa_SecureConnection_OnNotify: Connect event: Notifying owner! 0x80050000
-21:50:49.671Z|1|22B4* [uastack] OpcUa_SecureConnection_OnNotify: Connect event: ERROR 0x80050000!
-21:50:49.671Z|1|22B4* [uastack] OpcUa_SecureConnection_OnNotify: Connect event: Notifying owner! 0x80050000
-21:51:31.938Z|1|2C94* [uastack] OpcUa_SecureConnection_OnNotify: Connect event: ERROR 0x80050000!
-21:51:31.938Z|1|2C94* [uastack] OpcUa_SecureConnection_OnNotify: Connect event: Notifying owner! 0x80050000
-21:52:14.206Z|1|2C4C* [uastack] OpcUa_SecureConnection_OnNotify: Connect event: ERROR 0x80050000!
-21:52:14.206Z|1|2C4C* [uastack] OpcUa_SecureConnection_OnNotify: Connect event: Notifying owner! 0x80050000
-11:26:12.443Z|1|5150* [uastack] OpcUa_SecureConnection_OnNotify: Connect event: ERROR 0x80050000!
-11:26:12.443Z|1|5150* [uastack] OpcUa_SecureConnection_OnNotify: Connect event: Notifying owner! 0x80050000
-15:15:13.220Z|1|2150* [uastack] OpcUa_SecureConnection_OnNotify: Connect event: ERROR 0x80050000!
-15:15:13.220Z|1|2150* [uastack] OpcUa_SecureConnection_OnNotify: Connect event: Notifying owner! 0x80050000
+22:15:49.050Z|4|7684* ==> UaCoreServerApplication::start
+22:15:49.050Z|6|7684* --> ServerConfigXml::loadConfiguration
+22:15:49.050Z|2|7684* Warning: ServerConfigXml - AllowDeprecatedSecurityPolicies is set to true. You may run the server with settings that are no longer considered secure.
+22:15:49.050Z|2|7684* Warning: ServerConfigXml - setting UserIdentityTokens/SecurityPolicy to http://opcfoundation.org/UA/SecurityPolicy#Basic256. This SecurityPolicy is no longer considered secure.
+22:15:49.051Z|2|7684* Warning: UaEndpointXml::setXmlConfig - SecurityPolicyUri: http://opcfoundation.org/UA/SecurityPolicy#None is enabled. This allows clients to connect without certificate check.
+22:15:49.051Z|6|7684* <-- ServerConfigXml::loadConfiguration [ret=0x0]
+22:15:49.051Z|3|7684* UaDir::mkpath: Path already exists!
+22:15:51.118Z|1|7238* [uastack] OpcUa_SecureConnection_OnNotify: Connect event: ERROR 0x80050000!
+22:15:51.118Z|1|7238* [uastack] OpcUa_SecureConnection_OnNotify: Connect event: Notifying owner! 0x80050000
+22:16:12.811Z|1|86FC* [uastack] OpcUa_SecureConnection_OnNotify: Connect event: ERROR 0x80050000!
+22:16:12.811Z|1|86FC* [uastack] OpcUa_SecureConnection_OnNotify: Connect event: Notifying owner! 0x80050000

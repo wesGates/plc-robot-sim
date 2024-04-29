@@ -1,0 +1,42 @@
+{
+    "server_list": {
+        "MyModbusServer": {
+            "comm": "tcp",
+            "host": "0.0.0.0",
+            "port": 5020,
+            "framer": "rtu",
+            "identity": {
+                "VendorName": "pymodbus",
+                "ProductCode": "PM",
+                "VendorUrl": "https://github.com/pymodbus-dev/pymodbus",
+                "ProductName": "pymodbus Server",
+                "ModelName": "pymodbus Server",
+                "MajorMinorRevision": "3.1.0"
+            }
+        }
+    },
+    "device_list": {
+        "MyModbusDevice": {
+            "setup": {
+                "co size": 10,
+                "di size": 10,
+                "hr size": 10, 
+                "ir size": 10,
+                "shared blocks": true,  
+                "type exception": true  
+            },
+            "invalid": [],  
+            "write": [
+                {"addr": 3, "value": 1}  
+            ],
+            "bits": [],  
+            "uint16": [
+                {"addr": 3, "value": 1}  
+            ],
+            "uint32": [],  
+            "float32": [], 
+            "string": [],  
+            "repeat": []  
+        }
+    }
+}

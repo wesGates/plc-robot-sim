@@ -1,6 +1,6 @@
 [Servers]
 0\Name=StudioOpcUaServer@nono
-0\Connected=true
+0\Connected=false
 0\ProjectServerId=0
 0\ServerUrl=opc.tcp://nono:48010
 0\Server.ApplicationUri=urn:nono:Studio:OpcUaServer
@@ -40,7 +40,7 @@
 
 [Documents]
 Data%20Access%20View\DocumentType=Data Access View
-Data%20Access%20View\DocumentSettings\headerState=@ByteArray(\0\0\0\xff\0\0\0\0\0\0\0\x1\0\0\0\x1\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\b(\0\0\0\t\x1\0\x1\0\0\0\0\0\0\0\0\0\0\0\0\0\xc8\xff\xff\xff\xff\0\0\0\x84\0\0\0\0\0\0\0\t\0\0\0N\0\0\0\x1\0\0\0\0\0\0\0\xc8\0\0\0\x1\0\0\0\0\0\0\x2\x62\0\0\0\x1\0\0\0\0\0\0\0\xc8\0\0\0\x1\0\0\0\0\0\0\0\xc8\0\0\0\x1\0\0\0\0\0\0\0\xc8\0\0\0\x1\0\0\0\0\0\0\0\xc8\0\0\0\x1\0\0\0\0\0\0\0\xc8\0\0\0\x1\0\0\0\0\0\0\0\xc8\0\0\0\x1\0\0\0\0\0\0\x3\xe8\0\0\0\0\0)
+Data%20Access%20View\DocumentSettings\headerState=@ByteArray(\0\0\0\xff\0\0\0\0\0\0\0\x1\0\0\0\x1\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\x6\xe5\0\0\0\t\x1\0\x1\0\0\0\0\0\0\0\0\0\0\0\0\0\x64\xff\xff\xff\xff\0\0\0\x84\0\0\0\0\0\0\0\t\0\0\0N\0\0\0\x1\0\0\0\0\0\0\0\xc8\0\0\0\x1\0\0\0\0\0\0\x1\x1f\0\0\0\x1\0\0\0\0\0\0\0\xc8\0\0\0\x1\0\0\0\0\0\0\0\xc8\0\0\0\x1\0\0\0\0\0\0\0\xc8\0\0\0\x1\0\0\0\0\0\0\0\xc8\0\0\0\x1\0\0\0\0\0\0\0\xc8\0\0\0\x1\0\0\0\0\0\0\0\xc8\0\0\0\x1\0\0\0\0\0\0\x3\xe8\0\0\0\0\0)
 Data%20Access%20View\DocumentSettings\SubscriptionSettings\publishingInterval=500
 Data%20Access%20View\DocumentSettings\SubscriptionSettings\lifetimeCount=2400
 Data%20Access%20View\DocumentSettings\SubscriptionSettings\maxKeepAliveCount=10
@@ -49,11 +49,18 @@ Data%20Access%20View\DocumentSettings\SubscriptionSettings\priority=0
 Data%20Access%20View\DocumentSettings\SubscriptionSettings\publishingEnabled=true
 Data%20Access%20View\DocumentSettings\Items\000\000\DisplayName=Estop
 Data%20Access%20View\DocumentSettings\Items\000\000\NodeId="ns=2;s=Studio.Tags.Application.Estop"
-Data%20Access%20View\DocumentSettings\Items\000\000\Status=4
+Data%20Access%20View\DocumentSettings\Items\000\000\Status=0
 Data%20Access%20View\DocumentSettings\Items\000\000\MonitoringMode=2
 Data%20Access%20View\DocumentSettings\Items\000\000\MonitoringParameters\DiscardOldest=1
 Data%20Access%20View\DocumentSettings\Items\000\000\MonitoringParameters\QueueSize=1
 Data%20Access%20View\DocumentSettings\Items\000\000\MonitoringParameters\SamplingInterval=250
+Data%20Access%20View\DocumentSettings\Items\000\004\DisplayName=Test
+Data%20Access%20View\DocumentSettings\Items\000\004\NodeId="ns=2;s=Studio.Tags.Application.Test"
+Data%20Access%20View\DocumentSettings\Items\000\004\Status=0
+Data%20Access%20View\DocumentSettings\Items\000\004\MonitoringMode=2
+Data%20Access%20View\DocumentSettings\Items\000\004\MonitoringParameters\DiscardOldest=1
+Data%20Access%20View\DocumentSettings\Items\000\004\MonitoringParameters\QueueSize=1
+Data%20Access%20View\DocumentSettings\Items\000\004\MonitoringParameters\SamplingInterval=250
 
 [Attribute%20Plugin]
 Act_OnOff_Checked=true
