@@ -1,0 +1,23 @@
+** urn:nono:Studio:OpcUaServer: start trace
+** Product version: Studio Studio Opc Ua Server 1.0.1
+** Date: 2024-05-02
+**
+17:04:17.957Z|4|6BEC* ==> UaCoreServerApplication::start
+17:04:17.957Z|6|6BEC* --> ServerConfigXml::loadConfiguration
+17:04:17.958Z|2|6BEC* Warning: ServerConfigXml - AllowDeprecatedSecurityPolicies is set to true. You may run the server with settings that are no longer considered secure.
+17:04:17.958Z|2|6BEC* Warning: ServerConfigXml - setting UserIdentityTokens/SecurityPolicy to http://opcfoundation.org/UA/SecurityPolicy#Basic256. This SecurityPolicy is no longer considered secure.
+17:04:17.958Z|2|6BEC* Warning: UaEndpointXml::setXmlConfig - SecurityPolicyUri: http://opcfoundation.org/UA/SecurityPolicy#None is enabled. This allows clients to connect without certificate check.
+17:04:17.958Z|6|6BEC* <-- ServerConfigXml::loadConfiguration [ret=0x0]
+17:04:17.958Z|3|6BEC* UaDir::mkpath: Path already exists!
+17:04:20.081Z|1|1BA8* [uastack] OpcUa_SecureConnection_OnNotify: Connect event: ERROR 0x80050000!
+17:04:20.081Z|1|1BA8* [uastack] OpcUa_SecureConnection_OnNotify: Connect event: Notifying owner! 0x80050000
+17:05:02.366Z|1|53AC* [uastack] OpcUa_SecureConnection_OnNotify: Connect event: ERROR 0x80050000!
+17:05:02.366Z|1|53AC* [uastack] OpcUa_SecureConnection_OnNotify: Connect event: Notifying owner! 0x80050000
+17:05:44.634Z|1|2C5C* [uastack] OpcUa_SecureConnection_OnNotify: Connect event: ERROR 0x80050000!
+17:05:44.634Z|1|2C5C* [uastack] OpcUa_SecureConnection_OnNotify: Connect event: Notifying owner! 0x80050000
+17:06:28.582Z|1|4ACC* [uastack] OpcUa_SecureConnection_OnNotify: Connect event: ERROR 0x80050000!
+17:06:28.582Z|1|4ACC* [uastack] OpcUa_SecureConnection_OnNotify: Connect event: Notifying owner! 0x80050000
+17:07:03.201Z|1|1374* [uastack] OpcUa_SecureConnection_OnNotify: Connect event: ERROR 0x80050000!
+17:07:03.201Z|1|1374* [uastack] OpcUa_SecureConnection_OnNotify: Connect event: Notifying owner! 0x80050000
+17:07:29.552Z|1|5A64* [uastack] OpcUa_SecureConnection_OnNotify: Connect event: ERROR 0x80050000!
+17:07:29.552Z|1|5A64* [uastack] OpcUa_SecureConnection_OnNotify: Connect event: Notifying owner! 0x80050000
